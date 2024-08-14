@@ -35,7 +35,7 @@ public class UserSteps {
                 .then().log().all();
     }
 
-    @Step("Удаление курьера")
+    @Step("Удаление пользователя")
     public ValidatableResponse deleteUser(DeleteUser deleteUser) {
         return requestSpec()
                 .headers(
